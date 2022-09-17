@@ -1,2 +1,6 @@
 - Prettier
-- Ayu theme
+- Raiju - Classic
+- Go
+- Remote - WSL
+- Volar
+- IntelliCode
