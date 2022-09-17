@@ -1,1 +1,14 @@
-
+{
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Raijū - Classic",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.matchBrackets": "never",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  }
+}
