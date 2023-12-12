@@ -1,14 +1,80 @@
 {
-  "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Raijū - Classic",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.matchBrackets": "never",
-  "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "window.menuBarVisibility": "hidden",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.startupEditor": "none",
+  "editor.tabSize": 4,
+  "editor.fontFamily": "'Monaspace Neon', 'MonaspiceAr Nerd Font Mono', 'FiraCode Nerd Font Mono', 'monospace'",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnSave": false,
+  "terminal.integrated.fontFamily": "'Monaspace Krypton', 'MonaspiceKr Nerd Font Mono', 'FiraCode Nerd Font Mono', 'monospace'",
+  "terminal.integrated.fontSize": 15,
   "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  }
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
 }
