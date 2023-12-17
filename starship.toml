@@ -8,3 +8,9 @@ success_symbol = '[➜](bold green)'
 
 [nodejs]
 detect_files = [ "package.json", ".node-version", ".nvmrc", "!bun.lockb" ]
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
