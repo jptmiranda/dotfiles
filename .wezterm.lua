@@ -17,7 +17,7 @@ config.font = wezterm.font_with_fallback {
   'Monaspace Krypton',
   'MonaspiceKr Nerd Font Mono',
   'FiraCode Nerd Font Mono',
-  'monospace',
+  monospace,
 }
 config.font_size = 13
 

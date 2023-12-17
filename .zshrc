@@ -27,8 +27,16 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
+# bun completions
+[ -s "/home/dot/.bun/_bun" ] && source "/home/dot/.bun/_bun"
+
 # nvm
 source /usr/share/nvm/init-nvm.sh
+
+# go
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
 
 # starship
 eval "$(starship init zsh)"

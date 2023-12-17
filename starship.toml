@@ -1,0 +1,10 @@
+# editor completions
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+[character]
+success_symbol = '[➜](bold green)'
+
+[nodejs]
+detect_files = [ "package.json", ".node-version", ".nvmrc", "!bun.lockb" ]
