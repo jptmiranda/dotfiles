@@ -1,5 +1,6 @@
 # aliases
 alias vim=nvim
+alias ls=eza
 
 # autocompletion
 autoload -Uz compinit && compinit
@@ -21,24 +22,29 @@ _dotnet_zsh_complete()
 compdef _dotnet_zsh_complete dotnet
 
 # autosuggestions
-source "$HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# themes
+THEME_DIR="$HOME/.themes"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
 # bun completions
-[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+[ -s "/home/dot/.bun/_bun" ] && source "/home/dot/.bun/_bun"
 
 # nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /usr/share/nvm/init-nvm.sh
 
 # go
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+
+# zsh syntax highlighting
+source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # starship
 eval "$(starship init zsh)"
