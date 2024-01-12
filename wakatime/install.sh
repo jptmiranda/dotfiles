@@ -1,3 +1,3 @@
 cp .wakatime.cfg ~/
-credential="api_key = $(op read "op://private/WakaTime/credential")"
-echo $credential >> ~/.wakatime.cfg
+credential=$(op read "op://private/WakaTime/credential")
+echo -e "\napi_key = $credential" >> ~/.wakatime.cfg
