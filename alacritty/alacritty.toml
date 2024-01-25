@@ -1,0 +1,10 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[font]
+size = 13
+normal = { family = "Monaspace Krypton", style = "regular" }
+
+[cursor]
+style = { blinking = "On", shape = "Underline" }
