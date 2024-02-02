@@ -8,8 +8,8 @@ Install the 1Password desktop application and CLI
 
 Use stow to create symlinks
 
-```
-$ stow .
+``` bash
+stow .
 ```
 
 ## Run scripts
