@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-export SSH_AUTH_SOCK=~/.1password/agent.sock
+export SSH_AUTH_SOCK=$HOME/.1password/agent.sock
 
 # variables
 THEME_DIR="$HOME/.themes"
