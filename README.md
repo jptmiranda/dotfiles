@@ -18,6 +18,9 @@
 - otf-monaspace
 - gtk-engine-murrine
 - gnome-themes-extra
+- jetbrains-toolbox
+- solaar
+- easyeffects
 
 ### Others
 
@@ -44,3 +47,10 @@ stow .
 ```
 
 ## Run scripts
+
+```bash
+./scripts/install.sh
+```
+
+## Extra
+
