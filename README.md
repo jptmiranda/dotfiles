@@ -18,11 +18,14 @@
 - stow
 - otf-monaspace
 - gnome-themes-extra
+- gnome-browser-connector
 - catppuccin-gtk-theme-mocha
 - catppuccin-cursors-mocha
 - jetbrains-toolbox
 - solaar
 - easyeffects
+- rofi
+- bolt-launcher
 
 ### Others
 
@@ -32,6 +35,7 @@
 - bun
 - zsh-syntax-highlighting
 - zsh-autosuggestions
+- catppuccin-gtk-theme-mocha (for actual files)
 
 ### Gnome extensions
 
@@ -46,7 +50,7 @@
 
 Use stow to create symlinks
 
-``` bash
+```bash
 stow .
 ```
 

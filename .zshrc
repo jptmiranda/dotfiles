@@ -10,7 +10,9 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 # nvm
-source /usr/share/nvm/init-nvm.sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
@@ -42,5 +44,5 @@ eval "$(starship init zsh)"
 # bun completions
 [ -s "/home/dot/.bun/_bun" ] && source "/home/dot/.bun/_bun"
 
-# Turso
+# turso
 export PATH="/home/dot/.turso:$PATH"
