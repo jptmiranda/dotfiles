@@ -4,11 +4,12 @@
 
 ### Arch package
 
+- alacritty
+- visual-studio-code-bin
+- google-chrome
 - 1password
 - 1password-cli
 - zsh
-- zsh-syntax-highlighting
-- zsh-autosuggestions
 - starship
 - wakatime
 - go
@@ -29,6 +30,8 @@
 - monaspice
 - nvm
 - bun
+- zsh-syntax-highlighting
+- zsh-autosuggestions
 
 ### Gnome extensions
 
