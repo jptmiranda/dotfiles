@@ -14,24 +14,19 @@
 - wakatime
 - go
 - eza
-- neovim
 - stow
-- otf-monaspace
+- ttf-jetbrains-mono-nerd
 - gnome-themes-extra
 - gnome-browser-connector
 - catppuccin-gtk-theme-mocha
 - catppuccin-cursors-mocha
-- jetbrains-toolbox
 - solaar
 - easyeffects
-- rofi
 - bolt-launcher
 
 ### Others
 
 - ohmyzsh
-- monaspice
-- nvm
 - bun
 - zsh-syntax-highlighting
 - zsh-autosuggestions

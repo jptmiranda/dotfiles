@@ -1,6 +1,4 @@
-import = [
-  "~/.config/alacritty/catppuccin-mocha.toml"
-]
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 
 [window]
 padding = { x = 16, y = 10 }
@@ -9,7 +7,7 @@ blur = true
 
 [font]
 size = 13
-normal = { family = "Monaspace Krypton", style = "regular" }
+normal = { family = "JetBrainsMono NF", style = "regular" }
 
 [cursor]
 style = { blinking = "On", shape = "Underline" }
