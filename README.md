@@ -4,31 +4,21 @@
 
 ### Arch package
 
-- alacritty
-- visual-studio-code-bin
-- google-chrome
+- ghostty
+- zed
+- cursor-bin
+- brave
 - 1password
 - 1password-cli
 - zsh
-- starship
-- wakatime
-- go
-- eza
+- mise
 - stow
-- ttf-jetbrains-mono-nerd
 - gnome-themes-extra
 - gnome-browser-connector
-- catppuccin-gtk-theme-mocha
-- catppuccin-cursors-mocha
 - solaar
 - easyeffects
 - bolt-launcher
 - ignition-startup
-
-### Others
-
-- mize
-- catppuccin-gtk-theme-mocha (for actual files)
 
 ### Gnome extensions
 
@@ -51,15 +41,4 @@ stow .
 
 ```bash
 ./scripts/install.sh
-```
-
-## Extra
-
-### GTK 4 Catppuccin
-
-```bash
-mkdir -p "${HOME}/.config/gtk-4.0"
-ln -sf "${THEME_DIR}/gtk-4.0/assets" "${HOME}/.config/gtk-4.0/assets"
-ln -sf "${THEME_DIR}/gtk-4.0/gtk.css" "${HOME}/.config/gtk-4.0/gtk.css"
-ln -sf "${THEME_DIR}/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css"
 ```
