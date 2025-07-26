@@ -23,13 +23,11 @@
 - solaar
 - easyeffects
 - bolt-launcher
+- ignition
 
 ### Others
 
-- ohmyzsh
-- bun
-- zsh-syntax-highlighting
-- zsh-autosuggestions
+- mize
 - catppuccin-gtk-theme-mocha (for actual files)
 
 ### Gnome extensions
