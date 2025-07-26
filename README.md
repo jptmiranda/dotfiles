@@ -23,7 +23,7 @@
 - solaar
 - easyeffects
 - bolt-launcher
-- ignition
+- ignition-startup
 
 ### Others
 
